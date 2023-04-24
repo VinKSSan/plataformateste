@@ -13,7 +13,7 @@
     rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/style.css">
   <!--prymary metatag-->
   <title>Landing Page REDES - Redesign</title>
   <meta name="title" content="Landing Page REDES - Redesign">
@@ -23,10 +23,10 @@
 
 <body style="padding: 0 0.5rem;">
   <div class="cabeça">
-    <header>
+    <header class="header" id="header">
       <div class="container">
         <a href="" class="rede" title="Logo redes">
-          <h1 style="color: aliceblue;">REDES</h1>
+          <h1>REDES</h1>
         </a>
         <nav>
           <div class="dropdown">
@@ -61,7 +61,42 @@
         </button>
       </div>
     </header>
-
+    <div class="menu_mob">
+      <div class="overlay js-overlay"></div>
+      <aside>
+        <ul class="quem2">
+          <li><a class="btn_quem quem2" href="">Quem somos</a></li>
+        </ul>
+        <nav>
+          <div class="dropdown drop2">
+            <a class="item">
+              <strong>lorem lorem lorem lorem</strong>
+              <p> amet consectetur adipisicing elit. Aperiam unde perspi</p>
+            </a>
+            <a class="item">
+              <strong>lorem lorem lorem lorem</strong>
+              <p> amet consectetur adipisicing elit. Aperiam unde perspi</p>
+            </a>
+            <a class="item">
+              <strong>lorem lorem lorem lorem</strong>
+              <p> amet consectetur adipisicing elit. Aperiam unde perspi</p>
+            </a>
+            <a class="item">
+              <strong>lorem lorem lorem lorem</strong>
+              <p> amet consectetur adipisicing elit. Aperiam unde perspi</p>
+            </a>
+            <a class="item">
+              <strong>lorem lorem lorem lorem</strong>
+              <p> amet consectetur adipisicing elit. Aperiam unde perspi</p>
+            </a>
+          </div>
+        </nav>
+        <a href="" class="rede logo" title="Logo redes">
+          <h1>REDES</h1>
+        </a>
+        <a href="" class="btn-secondary white">Cadastre-se</a>
+      </aside>
+    </div>
     <section class="s-hero">
       <div class="container">
         <div class="left-area" data-aos="fade-right">
@@ -78,7 +113,7 @@
       </div>
     </section>
   </div>
-
+  <script src="./js/menu_mobile.js"></script>
   <script src="./js/modal.js"></script>
 
   <section class="s-app">
@@ -325,6 +360,8 @@
  
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="./js/menu_fixo.js"></script>
 
 
   <script type="text/javascript">

@@ -13,3 +13,4 @@ function fechar_drop(event) {
 }
 btn_drop.addEventListener('click' , abrir_drop)
 cabeça.addEventListener('mouseleave' , fechar_drop)
+
